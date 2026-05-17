@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+   <link rel="stylesheet" href="../CSS/Contactame.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+</head>
+
+<body>
+
+<section class="glass-card seccion-contacto">
+
+    <h1>CONTACTAME</h1>
+
+    <header class="paginaprincipal">
+          <a href="../INDEX.HTML" class="btn-inicio">INICIO</a>
+    </header>
+
+    <form action="https://formspree.io/f/mwvyjnbg" method="POST" class="formulario-directo">
+        
+        <input type="text" name="Nombre" placeholder="Tu Nombre" required>
+        
+        <input type="email" name="email" placeholder="Tu Correo" required>
+        
+        <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+
+        <button type="submit" class="boton">ENVIAR CORREO</button>
+    </form>
+
+</section>
+
+</body>
+</html>
