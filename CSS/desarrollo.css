@@ -9,7 +9,7 @@ body {
     animation: fadeInCursos 0.8s ease-out forwards;
 }
 
-/* TÍTULO CENTRADO */
+/* titulo cen*/
 h1 {
     color: #38bdf8;
     text-align: center;
@@ -19,7 +19,7 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-/* BOTONES */
+/* btnes */
 .botones {
     position: absolute;
     top: 20px;
@@ -41,7 +41,7 @@ h1 {
     color: #fff;
 }
 
-/* FOOTER */
+/* pe de pagina */
 .footer {
     position: absolute;
     bottom: 20px;
@@ -49,7 +49,7 @@ h1 {
     text-align: center;
 }
 
-/* ANIMACIÓN */
+/* animacion */
 @keyframes fadeInCursos {
     from { opacity: 0; transform: scale(0.98); }
     to { opacity: 1; transform: scale(1); }
